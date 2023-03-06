@@ -1,0 +1,51 @@
+body {
+    width: 350px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: cadetblue;
+}
+
+p, h2, .radio-button {
+    font-family: "Lucida Grande","Lucida Sans Unicode", Tahoma, sans-serif;
+}
+
+p {
+    font-weight: 700;
+}
+
+.form-card {
+    padding: 20px 20px;
+    box-shadow: rgb(58, 57, 57) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.name-box {
+    width: 140px;
+    height: 20px;
+}
+
+.email-box {
+    width: 292px;
+    height: 20px;
+}
+
+.phone-box {
+    width: 82px;
+    height: 20px;
+}
+
+button {
+    margin-top: 15px;
+    background-color: cadetblue;
+    width: 100%;
+    border: none;
+    color: white;
+    padding: 20px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+}
