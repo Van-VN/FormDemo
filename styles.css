@@ -27,7 +27,7 @@ p {
     height: 20px;
 }
 
-.email-box {
+.email-box, .select-box {
     width: 292px;
     height: 20px;
 }
