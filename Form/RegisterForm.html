@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        p {
+            font-family: "Lucida Grande", "Lucida Sans Unicode", Tahoma, sans-serif;
+            font-weight: 700;
+            font-size: 18px;
+            margin: 0;
+            padding: 10px 8px;
+        }
+
+        .radio-btn {
+            display: inline-block;
+        }
+
+        article {
+            margin-bottom: 20px;
+        }
+
+    </style>
+</head>
+<body>
+<form action="http://demo.codegym.vn/6/registration_form/register.php" method="POST">
+    <article class="text-box">
+        <p>Họ và tên:</p>
+        <input type="text" name="fullname">
+        <p>Email:</p>
+        <input type="text" name="email">
+        <p>Phone Number:</p>
+        <input type="text" name="phonenum">
+    </article>
+    <article>
+        <p>Giới Tính</p>
+        <input type="radio" name="male" checked>
+        <p class="radio-btn" >Nam</p>
+        <input type="radio" name="male">
+        <p class="radio-btn">Nữ</p><br>
+        <button type="submit">Đăng ký</button>
+        <button type="reset">Reset</button>
+    </article>
+</form>
+</body>
+</html>
