@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        h1 {
+            text-transform: uppercase;
+        }
+
+        p {
+            display: inline-block;
+            padding-right: 10px;
+        }
+
+        button {
+            margin: 10px auto;
+        }
+
+    </style>
+</head>
+<body>
+<form action="https://www.w3schools.com/tags/tag_select.asp" method="PUSH">
+    <h1>đăng ký học viên</h1>
+    <p>Họ và tên</p>
+    <input type="text" name="fullName">
+    <br>
+    <p>Ngày sinh</p>
+    <input type="text" name="dob">
+    <br>
+    <p>Giới tính</p>
+    <input type="radio" id="gender-male" name="gender-male">
+    <label for="gender-male">Male</label>
+    <input type="radio" id="gender-female" name="gender-female">
+    <label for="gender-female">Female</label>
+    <br>
+    <p>Địa chỉ</p>
+    <textarea name="address" rows="3" cols="10"></textarea>
+    <br>
+    <p>Lớp</p>
+    <select name="class" id="class">
+        <option value="pick">- Chọn lớp -</option>
+        <option value="1stclass">Lớp 1</option>
+        <option value="2ndclass">Lớp 2</option>
+        <option value="3rdclass">Lớp 3</option>
+    </select>
+    <br>
+    <p>Email</p>
+    <input type="text" name="email">
+    <br>
+    <p>Điện thoại</p>
+    <input type="text" name="phone-num">
+    <br>
+    <button type="submit">Đăng ký</button>
+    <button type="reset">Nhập lại</button>
+</form>
+</body>
+</html>
